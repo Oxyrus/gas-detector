@@ -1,5 +1,6 @@
-const accountSid = 'AC1ec1db562c85f2e2b43a81f04b6a5a09';
-const authToken = 'e87b7355418bc730a78d8b57858cf120';
+// Obtener credenciales en https://www.twilio.com/console
+const accountSid = 'ACCOUNT_SID';
+const authToken = 'AUTH_TOKEN';
 const client = require('twilio')(accountSid, authToken);
 
 const sendSMS = (message, number) => {
