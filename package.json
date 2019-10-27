@@ -1,0 +1,11 @@
+{
+  "name": "smoke-detector",
+  "version": "1.0.0",
+  "description": "Smoke detector endpoint to send SMS to a given set of phone numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrés Pérez <andres_pz@outlook.es>",
+  "license": "MIT"
+}
